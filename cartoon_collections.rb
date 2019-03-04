@@ -4,8 +4,10 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet(planeteer_calls)
-  planeteer_calls.join("!")
+def summon_captain_planet(veggies)
+  array = veggies.split
+  array.collect do |word|
+  end.join("!")
 end
 
 def long_planeteer_calls# code an argument here
