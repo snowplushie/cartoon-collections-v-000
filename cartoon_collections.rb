@@ -12,7 +12,7 @@ def long_planeteer_calls(fruits)
   fruits.any? {|call| call.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  
+def find_the_cheese(contains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
