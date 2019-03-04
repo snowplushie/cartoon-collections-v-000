@@ -18,6 +18,3 @@ def find_the_cheese(contains_cheddar)
     return cheese if contains_cheddar.include?(cheese)
   end
 end
-return nil
-end
-end
